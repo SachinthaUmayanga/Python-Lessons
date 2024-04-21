@@ -27,3 +27,5 @@ a=0
 
 b=0.0
 print(type(b))
+
+print ("Configure git")
