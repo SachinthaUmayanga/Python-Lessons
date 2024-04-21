@@ -1,0 +1,13 @@
+python data types
+
+- Numeric
+	- integer
+	- complex numbers
+	- float
+- sequence
+	- strings
+	- list
+	- tuple
+- boolean
+- set
+
