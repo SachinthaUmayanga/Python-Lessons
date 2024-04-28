@@ -11,3 +11,12 @@ python data types
 - boolean
 - set
 
+
+============================
+Second Day
+============================
+
+
+Basic operators and inputs
+
+- 
