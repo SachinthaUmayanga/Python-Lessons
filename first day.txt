@@ -17,7 +17,7 @@ Second Day
 ============================
 
 
-Basic operators and inputs
+=====Basic operators and inputs====
 
 order of operations
 - brackets
@@ -26,3 +26,5 @@ order of operations
 - Division
 - Addition
 - Subtraction
+
+
