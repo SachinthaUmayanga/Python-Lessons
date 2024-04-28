@@ -19,4 +19,10 @@ Second Day
 
 Basic operators and inputs
 
-- 
+order of operations
+- brackets
+- Exponents
+- Multiplication
+- Division
+- Addition
+- Subtraction
