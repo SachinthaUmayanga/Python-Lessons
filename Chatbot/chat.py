@@ -21,6 +21,8 @@ all_words = data['all_words']
 tags = data['tags']
 model_state = data["model_state"]
 
+# print("data",data)
+
 model = NeuralNet(input_size, hidden_size, output_size).to(device)
 model.load_state_dict(model_state)
 model.eval()
@@ -32,6 +34,7 @@ def get_response(msg:str) -> str:
     X = bag_of_words(sentence, all_words)
     X = X.reshape(1, X.shape[0])
     X = torch.from_numpy(X).to(device)
+
 
     output = model(X)
     _, predicted = torch.max(output, dim=1)
@@ -46,4 +49,4 @@ def get_response(msg:str) -> str:
                 return random.choice(intent['responses'])
     return "I do not understand..."
 
-    
+# get_response("Hello world")

@@ -8,7 +8,7 @@ python data types
 	- strings
 	- list
 	- tuple
-- boolean
+- Boolean
 - set
 
 
@@ -29,6 +29,10 @@ order of operations
 
 
 ========================
-Third Day
+Fourth Day
 =======================
+
+tuples are immutable
+
+stripe, lower, upper, 
 
