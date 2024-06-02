@@ -36,3 +36,4 @@ tuples are immutable
 
 stripe, lower, upper, 
 
+function = def
